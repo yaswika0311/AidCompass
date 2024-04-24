@@ -1,29 +1,42 @@
-## AidCompass, Your Disaster Relief Partner
+# AidCompass, Your Disaster Relief Partner
 
-This project uses machine learning and satellite imagery to better target disaster relief efforts. I focused on Typhoon Haiyan, which hit the Philippines in November of 2013. It broke records for having the highest wind speeds upon landfall and destroyed over 1 million homes.
+AidCompass is an AI-powered disaster relief organization that provides data-driven solutions for early warnings, rescue operations, damage assessment, and resource allocation.
 
-After natural disasters, it's important to understand which areas suffered the most damage in order to prioritize relief efforts. Often times damage assessment maps are created by volunteers with the Humanitarian Open Street Map team who compare satellite imagery before and after the disaster and manually label each building with their evaluation of damage. However these maps are time and labor intensive to create, and not always accurate.
+## Problem Statement
+The evolution of AI has been nothing short of extraordinary. From humble beginnings, machines now learn, adapt, and even create with startling sophistication.  Let's focus on using this power to address the challenges we face. 
 
-Studies have found that Open Street Map data often over-estimates damage in areas that are talked about in the news and under-estimates damage elsewhere.
+The greatest innovations are those that solve real-world problems and make a positive difference. This hackathon is a chance to create solutions that improve lives, streamline processes that make a tangible difference in healthcare, education and sustainability, and countless other fields for the next billion users. Let's make this hackathon a testament to a future where AI isn't just intelligent – it's transformative.
 
-## Goal
-
+ Enhance disaster relief and response efforts by leveraging satellite imagery during disasters like floods and wildfires, integrating existing geospatial information, and utilizing environmental data for affected regions.
 My goal was to create a model that could more quickly and more accurately identify the hardest hit areas in order to better target disaster relief.
 
 
-## Applications
+## Solution
 
-This sort of change detection model has many applications. For example, it could be used to identify illegal deforestation, monitor rising sea levels caused by global warming, or identify crop loss due to droughts or floods.
+To address this challenge, I propose the development of an AI-powered web application. This application aims to provide early warnings, damage assessment, and resource allocation support during both wildfires and floods. By leveraging satellite imagery, geospatial information, and environmental data, my solution can detect early signs of disasters, and assess the damage level remotely, and optimize resource deployment for efficient response efforts. This web application will provide 
+•	Timely warnings to authorities and communities for both floods and wildfires, facilitating proactive response measures such as evacuation and disaster preparedness.
+•	Assists rescue teams and emergency responders in prioritizing response efforts, directing resources to areas most in need of assistance for both floods and wildfires.
 
-In the case of disaster relief as I've written about today, this model enables targeting of limited resources to ensure that structural building assessments, food, water, and other aid are going to the people who need it most.
+
 
 -----
-**Languages**: Python, JavaScript  
+**Languages**: Python, HTML, JavaScript  
 **Libraries**: Keras + TensorFlow, numpy, pandas, sklearn, rasterio, geopandas, shapely, opencv, matplotlib, seaborn  
 **Methods**: Deep learning, classification (supervised learning)  
 
-Replication notes:
 
-- `google-earth-engine-satellite.js` pulls the satellite imagery from Google Earth Engine and should be run first.
-- Building data shapefiles (grading maps) can be downloaded manually from the <a href="http://emergency.copernicus.eu/mapping/list-of-components/EMSR058">Copernicus Emergency Management Service website</a>.
-- `0.0-data-prep.ipynb` is a precursor to two modeling notebooks. The latter two can be run independently of one another.
+## Environment Setup
+ To run the code for this web application, follow these steps:
+
+## Clone the Repository:
+### Open Command Prompt
+       git clone https://github.com/yaswika0311/AidCompass.git
+      
+### Open in Visual Studio Code:
+       Open Visual Studio Code.
+Navigate to the project directory using the File menu or command line.
+Alternatively, you can simply drag and drop the project folder into Visual Studio Code.
+
+## Access the Web Application:
+   Open your web browser and navigate to http://127.0.0.1:5500/index.html to access the disaster relief web application.
+
