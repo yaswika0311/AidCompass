@@ -1,4 +1,4 @@
-## Targeting disaster relief from space
+## AidCompass, Your Disaster Relief Partner
 
 This project uses machine learning and satellite imagery to better target disaster relief efforts. I focused on Typhoon Haiyan, which hit the Philippines in November of 2013. It broke records for having the highest wind speeds upon landfall and destroyed over 1 million homes.
 
