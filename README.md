@@ -38,4 +38,5 @@ Navigate to the project directory using the File menu or command line.
 Alternatively, you can simply drag and drop the project folder into Visual Studio Code.
 
 ## Access the Web Application:
-   To see the demo video of the website I will be developing, go to the "imgs" folder and open the demo video
+  ####  Click on this link to find the demo video of the basic outline of the website 
+       https://drive.google.com/file/d/1_HOIupT1GNOiXw15df8t-FuS4K8Y-3vG/view?usp=drivesdk
