@@ -38,5 +38,4 @@ Navigate to the project directory using the File menu or command line.
 Alternatively, you can simply drag and drop the project folder into Visual Studio Code.
 
 ## Access the Web Application:
-   Open your web browser and navigate to http://127.0.0.1:5500/index.html to access the disaster relief web application.
-
+   To see the demo video of the website I will be developing, go to the "imgs" folder and open the demo video
